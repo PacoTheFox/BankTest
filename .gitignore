@@ -1,0 +1,28 @@
+# Xcode and related files
+.DS_Store
+xcuserdata/
+*.pbxproj
+*.xcworkspace
+DerivedData/
+build/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserdata
+project.xcconfig
+
+# CocoaPods
+Pods/
+*.xcconfig # If you don't want to track CocoaPods config
+
+# Carthage
+Carthage/
+*.framework.dSYM
+
+# Swift Package Manager (SPM)
+.build/
+Package.resolved
+
+# Fastlane
+fastlane/report.json
+fastlane/screenshots/
