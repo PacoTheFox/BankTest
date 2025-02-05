@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E1909FA62D52BA8A00269918 /* Exceptions for "BankTestingApp" folder in "BankTestingApp" target */ = {
+		E190A0252D53218400269918 /* Exceptions for "BankTestingApp" folder in "BankTestingApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,10 +21,10 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E1909F962D52BA8800269918 /* BankTestingApp */ = {
+		E190A0192D53218400269918 /* BankTestingApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				E1909FA62D52BA8A00269918 /* Exceptions for "BankTestingApp" folder in "BankTestingApp" target */,
+				E190A0252D53218400269918 /* Exceptions for "BankTestingApp" folder in "BankTestingApp" target */,
 			);
 			path = BankTestingApp;
 			sourceTree = "<group>";
@@ -45,7 +45,7 @@
 		E1909F8B2D52BA8800269918 = {
 			isa = PBXGroup;
 			children = (
-				E1909F962D52BA8800269918 /* BankTestingApp */,
+				E190A0192D53218400269918 /* BankTestingApp */,
 				E1909F952D52BA8800269918 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E1909F962D52BA8800269918 /* BankTestingApp */,
+				E190A0192D53218400269918 /* BankTestingApp */,
 			);
 			name = BankTestingApp;
 			packageProductDependencies = (
