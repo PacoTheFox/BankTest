@@ -6,7 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		DF67BF912D540F0000CFDEA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1909F8C2D52BA8800269918 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1909F932D52BA8800269918;
+			remoteInfo = BankTestingApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		DF67BF8D2D540F0000CFDEA3 /* BankTestingAppUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankTestingAppUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1909F942D52BA8800269918 /* BankTestingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankTestingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -21,6 +32,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		DF67BF8E2D540F0000CFDEA3 /* BankTestingAppUnitTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BankTestingAppUnitTests;
+			sourceTree = "<group>";
+		};
 		E190A0192D53218400269918 /* BankTestingApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -32,6 +48,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DF67BF8A2D540F0000CFDEA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E1909F912D52BA8800269918 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -46,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				E190A0192D53218400269918 /* BankTestingApp */,
+				DF67BF8E2D540F0000CFDEA3 /* BankTestingAppUnitTests */,
 				E1909F952D52BA8800269918 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				E1909F942D52BA8800269918 /* BankTestingApp.app */,
+				DF67BF8D2D540F0000CFDEA3 /* BankTestingAppUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +86,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DF67BF8C2D540F0000CFDEA3 /* BankTestingAppUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF67BF932D540F0000CFDEA3 /* Build configuration list for PBXNativeTarget "BankTestingAppUnitTests" */;
+			buildPhases = (
+				DF67BF892D540F0000CFDEA3 /* Sources */,
+				DF67BF8A2D540F0000CFDEA3 /* Frameworks */,
+				DF67BF8B2D540F0000CFDEA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF67BF922D540F0000CFDEA3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DF67BF8E2D540F0000CFDEA3 /* BankTestingAppUnitTests */,
+			);
+			name = BankTestingAppUnitTests;
+			packageProductDependencies = (
+			);
+			productName = BankTestingAppUnitTests;
+			productReference = DF67BF8D2D540F0000CFDEA3 /* BankTestingAppUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E1909F932D52BA8800269918 /* BankTestingApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1909FA72D52BA8A00269918 /* Build configuration list for PBXNativeTarget "BankTestingApp" */;
@@ -90,9 +138,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1610;
+				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
+					DF67BF8C2D540F0000CFDEA3 = {
+						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
+						TestTargetID = E1909F932D52BA8800269918;
+					};
 					E1909F932D52BA8800269918 = {
 						CreatedOnToolsVersion = 16.1;
 					};
@@ -113,11 +166,19 @@
 			projectRoot = "";
 			targets = (
 				E1909F932D52BA8800269918 /* BankTestingApp */,
+				DF67BF8C2D540F0000CFDEA3 /* BankTestingAppUnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DF67BF8B2D540F0000CFDEA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E1909F922D52BA8800269918 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,6 +189,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DF67BF892D540F0000CFDEA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E1909F902D52BA8800269918 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,7 +205,56 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		DF67BF922D540F0000CFDEA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1909F932D52BA8800269918 /* BankTestingApp */;
+			targetProxy = DF67BF912D540F0000CFDEA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		DF67BF942D540F0000CFDEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T83YS468S7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BankTestingAppUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankTestingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BankTestingApp";
+			};
+			name = Debug;
+		};
+		DF67BF952D540F0000CFDEA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T83YS468S7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BankTestingAppUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankTestingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BankTestingApp";
+			};
+			name = Release;
+		};
 		E1909FA82D52BA8A00269918 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -314,6 +431,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DF67BF932D540F0000CFDEA3 /* Build configuration list for PBXNativeTarget "BankTestingAppUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF67BF942D540F0000CFDEA3 /* Debug */,
+				DF67BF952D540F0000CFDEA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E1909F8F2D52BA8800269918 /* Build configuration list for PBXProject "BankTestingApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
